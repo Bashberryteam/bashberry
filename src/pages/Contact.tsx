@@ -56,6 +56,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
+      <main>
 
       <section className="bg-hero-gradient pt-32 pb-20">
         <div className="container mx-auto px-6 text-center">
@@ -189,6 +190,7 @@ const Contact = () => {
         </div>
       </section>
 
+      </main>
       <Footer />
     </div>
   );
