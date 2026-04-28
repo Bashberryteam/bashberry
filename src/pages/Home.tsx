@@ -185,7 +185,7 @@ const TestimonialSlideshow = ({ testimonials }: { testimonials: Testimonial[] })
 
           <div className="mt-8 flex justify-center gap-1.5 flex-wrap">
             {testimonials.map((_, i) => (
-              <button key={i} onClick={() => setCurrent(i)} className={`h-2 rounded-full transition-all ${i === current ? "w-8 bg-primary" : "w-2 bg-muted"}`} />
+              <button key={i} onClick={() => setCurrent(i)} aria-label={`Go to testimonial ${i + 1}`} aria-current={i === current} className={`h-2 rounded-full transition-all ${i === current ? "w-8 bg-primary" : "w-2 bg-muted"}`} />
             ))}
           </div>
         </div>
