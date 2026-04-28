@@ -64,6 +64,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
+      <main>
 
       {/* Hero */}
       <section className="relative min-h-screen bg-hero-gradient pt-16">
@@ -143,6 +144,7 @@ const Home = () => {
       {/* Testimonial Slideshow */}
       <TestimonialSlideshow testimonials={testimonials} />
 
+      </main>
       <Footer />
     </div>
   );
