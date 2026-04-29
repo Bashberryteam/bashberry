@@ -60,7 +60,7 @@ const Footer = () => {
               <span className="text-lg font-semibold text-foreground">Bash Berry <span className="text-primary">Xpert</span></span>
             </Link>
             <p className="mb-4 max-w-sm text-sm leading-relaxed text-muted-foreground">
-              Elite solo e-commerce growth consultant specializing in Shopify, Google & Meta Ecosystems, and data-driven revenue scaling.
+              Multi-platform e-commerce growth partner — Shopify, Wix, WordPress, WooCommerce, Squarespace and Square Online — engineering revenue systems for global brands.
             </p>
             <a href="mailto:bashberryexpert@gmail.com" className="inline-flex items-center gap-2 text-sm font-medium text-primary transition-colors hover:text-foreground mb-4">
               <Mail className="h-4 w-4" /> bashberryexpert@gmail.com

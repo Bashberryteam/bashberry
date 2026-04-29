@@ -4,19 +4,19 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const timeline = [
-  { icon: Briefcase, year: "2022 – Present", title: "Founder & Lead Strategist", company: "Bash Berry Xpert", description: "Leading full-stack e-commerce growth for Shopify brands. Specializing in Google/Meta ecosystems, technical SEO, and conversion optimization." },
-  { icon: Briefcase, year: "2020 – 2022", title: "Senior E-commerce Consultant", company: "Freelance", description: "Managed multi-channel marketing campaigns for 50+ Shopify stores. Achieved average ROAS of 8.5x across my client portfolio." },
-  { icon: GraduationCap, year: "2018 – 2020", title: "Digital Marketing Specialist", company: "Agency Experience", description: "Built expertise in Google Ads, Facebook Ads, and SEO. Led campaigns generating $2M+ in tracked revenue." },
-  { icon: Award, year: "2017 – 2018", title: "Web Developer & Designer", company: "Freelance", description: "Started building custom websites and Shopify stores. Developed deep understanding of UX and conversion principles." },
+  { icon: Briefcase, year: "2022 – Present", title: "Founder & Lead Strategist", company: "Bash Berry Xpert", description: "Leading multi-platform e-commerce growth across Shopify, Wix, WordPress, WooCommerce and Squarespace. Specializing in Google/Meta ecosystems, technical SEO, and conversion optimization." },
+  { icon: Briefcase, year: "2020 – 2022", title: "Senior E-commerce Consultant", company: "Independent Practice", description: "Managed multi-channel marketing campaigns for 50+ stores across platforms. Achieved 8.5x average ROAS across the client portfolio." },
+  { icon: GraduationCap, year: "2018 – 2020", title: "Digital Marketing Specialist", company: "Agency Experience", description: "Built deep expertise in Google Ads, Meta Ads, and SEO. Led campaigns generating $2M+ in tracked revenue." },
+  { icon: Award, year: "2017 – 2018", title: "Web Developer & Designer", company: "Independent Practice", description: "Built custom websites and storefronts across Shopify, WordPress and Wix. Developed deep UX and conversion principles." },
 ];
 
 const techStack = [
-  { category: "E-commerce", tools: ["Shopify", "Shopify Plus", "Liquid", "Hydrogen", "WooCommerce"] },
-  { category: "Marketing", tools: ["Google Ads", "Google Merchant Center", "Meta Ads Manager", "Google Analytics 4", "GTM"] },
+  { category: "Platforms", tools: ["Shopify", "Shopify Plus", "Wix", "WordPress", "WooCommerce", "Squarespace", "Square Online"] },
+  { category: "Marketing", tools: ["Google Ads", "Google Merchant Center", "Meta Ads Manager", "TikTok Ads", "Pinterest Ads", "GTM"] },
   { category: "SEO", tools: ["Ahrefs", "SEMrush", "Screaming Frog", "Schema Markup", "Search Console"] },
   { category: "Design", tools: ["Figma", "Adobe XD", "Canva Pro", "Photoshop", "Illustrator"] },
-  { category: "Development", tools: ["HTML/CSS", "JavaScript", "React", "Tailwind CSS", "Node.js"] },
-  { category: "Analytics", tools: ["GA4", "Hotjar", "Microsoft Clarity", "Klaviyo", "Triple Whale"] },
+  { category: "Development", tools: ["HTML/CSS", "JavaScript", "React", "Liquid", "Tailwind CSS", "Node.js"] },
+  { category: "Analytics & Retention", tools: ["GA4", "Hotjar", "Microsoft Clarity", "Klaviyo", "Triple Whale"] },
 ];
 
 const certifications = [
@@ -40,10 +40,10 @@ const Experience = () => {
             About Bash Berry Xpert
           </motion.p>
           <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-6 text-4xl font-extrabold text-foreground md:text-6xl">
-            The Technical Partner Behind <span className="text-gradient">The Top 10%</span>
+            Bridging Technical Complexity & <span className="text-gradient">Business Profitability</span>
           </motion.h1>
           <p className="mx-auto max-w-2xl text-lg text-muted-foreground">
-            Years of hands-on experience scaling Shopify brands with data-driven strategies, proven frameworks, and deep Google & Meta ecosystem expertise.
+            A human-to-human partner for ambitious brands — built on years of hands-on work scaling stores across Shopify, Wix, WordPress and beyond.
           </p>
         </div>
       </section>
@@ -53,13 +53,13 @@ const Experience = () => {
         <div className="container mx-auto px-6 max-w-3xl">
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="space-y-5 text-muted-foreground leading-relaxed">
             <p>
-              Here's the truth most agencies won't tell you: <span className="text-foreground font-medium">90% of Shopify stores fail.</span> Not because the products are bad, and not because the owners aren't working hard — but because the traffic systems are broken and Google Merchant Center keeps the front door locked.
+              Hi — I'm the operator behind Bash Berry Xpert. I built this practice on one belief: <span className="text-foreground font-medium">we bridge the gap between technical complexity and business profitability.</span> Most brands don't fail because of bad products. They fail because the engineering, the search ecosystem, and the retention layer never get treated as one system.
             </p>
             <p>
-              Bash Berry Xpert exists for one reason: to put you in the <span className="text-foreground font-medium">top 10%</span>. I'm the technical partner who fixes the plumbing behind your store — Merchant Center approvals, feed optimization, Google & Meta ad infrastructure, retention flows, and the analytics layer that proves what's working.
+              That's the gap we close. We're a multi-platform partner — Shopify, Wix, WordPress, WooCommerce, Squarespace, Square Online — engineering revenue systems that compound month over month. Every project runs through the same Bash Berry 5-Pillar Framework: Platform Engineering, Catalog Mastery, the Search Ecosystem, the Meta &amp; Social Ecosystem, and Retention &amp; Revenue Systems.
             </p>
             <p>
-              I don't sell vague "marketing." I run a specific, repeatable 5-Pillar Framework built from years of scaling real stores across fashion, jewelry, and niche categories. When you work with me, you're not hiring an agency — you're plugging into a senior operator who treats your store like his own.
+              When you work with us, you're not buying tasks. You're plugging into a senior operator and a proven framework that treats your store like a P&amp;L — not a portfolio piece. That's how we've helped 20+ brands move from stalled to scaling, profitably.
             </p>
           </motion.div>
         </div>
